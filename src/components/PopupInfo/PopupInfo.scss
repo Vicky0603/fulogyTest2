@@ -1,0 +1,32 @@
+.popup-info {
+  position: fixed;
+  top: 62px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 162px);
+  background-color: #fff;
+  z-index: 4;
+  &__cancel {
+    background-color: transparent;
+    border: none;
+    color: #040404;
+    opacity: .3;
+    transition: .3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    img {
+      transform: rotate(90deg);
+      margin-right: 10px;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__content {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+  }
+}

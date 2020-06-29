@@ -1,0 +1,17 @@
+.specifications {
+  margin: 0;
+  padding: 40px;
+  width: calc(100% - 80px);
+  list-style: none;
+  &__item {
+    display: flex;
+    margin-bottom: 14px;
+    & > span {
+      width: 50%;
+      font-weight: 500;
+    }
+    &-name {
+
+    }
+  }
+}

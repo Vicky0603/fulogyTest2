@@ -1,0 +1,15 @@
+.constructor-wrap {
+  padding-top: 62px;
+  height: calc(100vh - 62px);
+}
+
+.constructor {
+  display: flex;
+  height: calc(100% - 100px);
+  & > div {
+    width: 50%;
+    &:first-child {
+      border-right: 1px solid #c1c1c1;
+    }
+  }
+}

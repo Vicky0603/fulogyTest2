@@ -1,0 +1,24 @@
+.menu__item {
+  width: 100%;
+  height: 12.5%;
+  border-bottom: 1px solid gray;
+  &:last-child {
+    border-bottom: none;
+  }
+  button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    &:hover {
+      background-color: #00B6FF;
+    }
+  }
+}

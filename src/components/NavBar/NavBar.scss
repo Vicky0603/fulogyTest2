@@ -1,0 +1,25 @@
+.nav-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #040404;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  z-index: 100;
+}
+.nav-bar {
+  display: flex;
+  width: calc(100% - 80px);
+  justify-content: space-between;
+  &__items {
+    display: flex;
+  }
+  &__item {
+    flex-shrink: 0;
+    margin-left: 30px;
+  }
+}
